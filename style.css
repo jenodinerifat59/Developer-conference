@@ -125,9 +125,126 @@ header .hero button {
     border-radius: 12px;
     overflow: hidden;
 }
-
 .Speakers .Speakers-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 32px;
+}
+/* =============================== */
+
+.Secure{
+    margin-top: 169px;
+    text-align: center;
+    
+}
+.Secure h2{
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 60px;
+   color: #0D1B2A;
+   margin-bottom: 12px;
+}
+.Secure p{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 24px;
+   margin-bottom: 48px;
+   color: #575757;
+}
+.Secure .secure-card-container .card h6{
+    font-size: 13px;
+   font-weight: 600;
+   line-height: 19.5px;
+   color: #888888;
+   letter-spacing: 0.32px;
+   margin-bottom: 8px;
+}
+.Secure .secure-card-container .card h2{
+    font-size: 44px;
+   font-weight: 700;
+   line-height: 44px;
+   color: #0D1B2A;
+   margin-bottom: 4px;
+}
+.Secure .secure-card-container .card p{
+    font-size: 13px;
+   font-weight: 300;
+   line-height: 19.5px;
+   color: #888888;
+   margin-bottom: 20px
+}
+.Secure .secure-card-container .card ul{
+    font-size: 14px;
+   font-weight: 300;
+   line-height: 21px;
+   color: #333333;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   li::marker{
+    color: #2563EB;
+}
+}
+.Secure .secure-card-container .card button{
+    font-size: 14px;
+   font-weight: 600;
+   line-height: 21px;
+   padding: 11px 106.33px;
+   color: #2563EB;
+   border: 1px solid #2563EB;
+   background-color: #FFFFFF;
+}
+.Secure .secure-card-container .card{
+    border: 1px solid #888888;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: start;
+    width: fit-content;
+}
+.Secure .secure-card-container{
+    display: flex;
+    justify-content: center;
+    gap:24px
+}
+#pro{
+    background-color: #0D1B2A;
+}
+#pro h6{
+    color: #93C5FD;
+}
+#pro h2{
+    color: #FFFFFF;
+}
+#pro p{
+    color: #868D94;
+}
+#pro ul li{
+    color: #CFD1D4;
+}
+#pro button{
+    background-color:#1A45A4;
+    color: #FFFFFF;
+    border:none
+}
+hr{
+    background-color: #25323F;
+}
+#Team{
+    background-color: #F8F9FB;
+}
+#Team h6{
+    color: #888888;
+}
+#pTeamh2{
+    color: #0D1B2A;
+}
+#Team p{
+    color: #888888;
+}
+#pTeamul li{
+    color: #333333;
+}
+#Team button{
+    color: #0D1B2A;
+    border-color:#0D1B2A ;
+    background-color:#F8F9FB ;
 }
