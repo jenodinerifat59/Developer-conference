@@ -82,3 +82,52 @@ header .hero button {
   font-weight: 800;
   color: #ffffff;
 }
+/* ======================= */
+.Speakers{
+  margin-top: 80px;
+}
+.Speakers h2{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64.4px;
+    color: #000102;
+    margin-bottom: 56px;
+}
+.Speakers .Speakers-card .card img{
+    width: 100%;
+    display: block;
+}
+.Speakers .Speakers-card .card h6{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding: 24px 24px 8px;
+    color: #2563EB;
+}
+.Speakers .Speakers-card .card h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    padding: 0px 24px 8px;
+    color: #0D1B2A;
+}
+.Speakers .Speakers-card .card p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    padding: 0px 24px 24px;
+    color: #575757;
+}
+.Speakers .Speakers-card .card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.Speakers .Speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
