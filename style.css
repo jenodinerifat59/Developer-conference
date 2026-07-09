@@ -1,5 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* ============= commons items ============= */
+body {
+  font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1551px;
+    margin: auto;
+}
+button {
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  border: none;
+}
+.flex{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ===================== nav itrms================== */
+
+nav .nav-container {
+  padding: 32.5px 115px;
+}
+nav .nav-container ul {
+  list-style: none;
+  gap: 24px;
+}
+nav .nav-container ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: #575757;
+}
+nav .nav-container button {
+  padding: 12px 41.5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
