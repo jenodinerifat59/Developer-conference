@@ -17,6 +17,13 @@ button {
   border: none;
   cursor: pointer;
 }
+button:hover{
+  background-color: transparent;
+  text-shadow: 3px 3px 3px #1d4ed8;
+  border-radius: 10px;
+  border: 1px solid#1d4ed8;
+ 
+}
 .flex {
   display: flex;
   justify-content: space-between;
@@ -47,6 +54,10 @@ nav .nav-container button {
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
+}
+nav .nav-container button:hover{
+
+  color: #1d4ed8;
 }
 header .hero {
   background-image:
@@ -283,7 +294,7 @@ marquee {
 
 .review-card {
   display: inline-block;
-  width: 1120px;
+  width: 350px;
   background: #ffffff;
   padding: 30px;
   margin-right: 25px;
